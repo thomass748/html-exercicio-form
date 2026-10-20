@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Academia de heróis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Academia de heróis</h1>
+        <p>Inscreva-se para participar da próxima missão</p>
+    </header>
+    <main>
+        <form action="#" method="get">
+            <h2>Faça sua inscrição</h2>
+
+            <label for="nome">Nome de herói:</label>
+            <input id="nome" type="text" required>
+
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" required>
+
+            <label for="idade">Idade:</label>
+            <input id="idade" type="number">
+
+            <p>Escolha sua equipe: </p>
+            <select name="equipe" id="equipe">
+                <option>Liga da justiça</option>
+                <option>Vingadores</option>
+                <option>Quarteto fantástico</option>
+            </select>
+
+            <h3>Qual poder você prefere?</h3>
+            <section>
+                <input id="voar" name="poder" type="radio">
+                <label for="voar">Voar</label>
+            </section>
+            
+            <section>
+                <input id="supervelocidade" name="poder" type="radio">
+                <label for="supervelocidade">Supervelocidade</label>
+            </section>
+            
+            <section>
+                <input id="superforca" name="poder" type="radio">
+                <label for="superforca">Superforça</label>
+            </section>
+            
+            <section>
+                <input  id="notificacao" name="notificacao" type="checkbox">
+                <label for="notificacoes">Quero receber novas missões</label>
+            </section>
+            
+
+            <label for="porque">Porque você quer ser um herói?</label>
+            <textarea name="porque" id="porque" rows="5"></textarea>
+
+            <button type="submit">Enviar inscrição</button>
+        </form>
+    </main>
+    <footer>
+        <p>Prática de formulário HTML</p>
+    </footer>
+</body>
+</html>
